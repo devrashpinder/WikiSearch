@@ -136,7 +136,9 @@ class _MyHomePageState extends State<MyHomePage> {
                                               : "Description not available",
                                       style: TextStyle(
                                           color: Colors.black87, fontSize: 12)),
-                                ]))),
+                                ])
+                            )
+                        ),
                       ],
                     ),
                   )
@@ -151,7 +153,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   Widget getMaterialSearchBar() {
     return AppBar(
-      title: Text("Wiki Search", style: TextStyle(color: Colors.white)),
+      title: Text("Wikipedia Search", style: TextStyle(color: Colors.white)),
     );
   }
 

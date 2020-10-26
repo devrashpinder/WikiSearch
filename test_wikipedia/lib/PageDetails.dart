@@ -48,7 +48,7 @@ class _PageDetailsState extends State<PageDetails> {
                  alignment: Alignment.center,
                  child: Container(
                    child: Text(
-                     pojo.query.pages[0].extract,style: TextStyle(color: Colors.black,  fontSize: 16,),textAlign: TextAlign.left,
+                     pojo.query.pages[0].extract,style: TextStyle(color: Colors.black,  fontSize: 15,),textAlign: TextAlign.left,
                    ),
                  ),
                ),
